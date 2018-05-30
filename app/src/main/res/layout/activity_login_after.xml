@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:gravity="center"
+    tools:context="com.example.bojun.test.login_after">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:paddingTop="5dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hallymuniv" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="님 환영합니다." />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/move_message"
+        android:text="수신함"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout"
+            android:text="로그아웃"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/infomation3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="infomation"
+            android:scaleType="centerCrop"
+            android:textSize="25sp"
+            android:text="제작자 정보" />
+        <TextView
+            android:id="@+id/infomation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="infomation"
+            android:scaleType="centerCrop"
+            android:textSize="20sp"
+            android:text="김보준 : dotolysky@hanmail.net" />
+        <TextView
+            android:id="@+id/infomation1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="infomation"
+            android:scaleType="centerCrop"
+            android:textSize="20sp"
+            android:text="장종혁 : jangjonghyuk@naver.com" />
+        <TextView
+            android:id="@+id/infomation31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="infomation"
+            android:scaleType="centerCrop"
+            android:textSize="20sp"
+            android:text="한민구 : alsrnalsrn94@naver.com" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/move_help"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:onClick="help"
+            android:scaleType="centerCrop"
+            android:text="도움말"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.bojun.test.Help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:paddingTop="4dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hallymuniv" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/help1"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="※도움말※"
+
+        />
+
+    <TextView
+        android:id="@+id/help2"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="한림대학교 매칭프로그램입니다." />
+
+    <TextView
+        android:id="@+id/help3"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="좌측 상단 +버튼: 로그인 및 회원가입 기능을 제공합니다" />
+
+    <TextView
+        android:id="@+id/help4"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="화면 가운데 초록색 매칭버튼: 원하는 카테고리의 원하는 상대를 찾도록 연결해 주는 기능입니다." />
+
+    <TextView
+        android:id="@+id/help5"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="파란색 주변 버튼: 주변 장소 및 부수적인 정보를 제공을 원한다면 이 버튼을 클릭하세요." />
+
+    <TextView
+        android:id="@+id/help6"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주황색 채팅 버튼: 원하는 카테고리에서의 다른 사람과의 채팅을 할 수 있습니다." />
+
+    <TextView
+        android:id="@+id/help7"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="학교 관련 사이트들의 배너입니다. 클릭시 관련 링크로 넘어갑니다." />
+
+
+</LinearLayout>
+
+

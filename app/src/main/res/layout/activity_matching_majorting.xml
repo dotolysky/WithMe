@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bojun.test.Matching_majorting"
+    android:background="@drawable/pic2">
+    <TextView
+        android:id="@+id/viewtaxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="과팅"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="7dp" />
+    <Button
+        android:id="@+id/taxi_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="게시글 작성"/>
+
+    <ListView
+        android:id="@+id/taxi_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

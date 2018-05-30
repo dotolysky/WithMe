@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.bojun.test">
+
+    <!-- 반드시 추가 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 위치정보활용시 추가 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 위치정보활용시 추가 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- WIFI 상태활용시 추가 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- WIFI 상태활용시 추가 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="위드미"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Matching_main" />
+        <activity android:name=".Ambient_main" />
+        <activity android:name=".Chatting_main" />
+        <activity android:name=".Ambient_weather" />
+        <activity android:name=".Ambient_map" />
+        <activity android:name=".Ambient_schoolbus" />
+        <activity android:name=".Chatting_taxi" />
+        <activity android:name=".Chatting_majorting" />
+        <activity android:name=".Matching_optioncheck" />
+        <activity android:name=".Matching_taxi" />
+        <activity android:name=".Matching_exercise" />
+        <activity android:name=".Matching_meal" />
+        <activity android:name=".Matching_majorting" />
+        <activity android:name=".Chatting_Exercise" />
+        <activity android:name=".Chatting_meal" />
+        <activity android:name=".Matching_write" />
+        <activity android:name=".login_after" />
+        <activity android:name=".Help" />
+        <activity android:name=".Matchingoption_nothing" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <activity android:name=".Member" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Matchingoption_anything" />
+        <activity android:name=".Message_send" />
+        <activity android:name=".Message_receive"></activity>
+    </application>
+
+</manifest>

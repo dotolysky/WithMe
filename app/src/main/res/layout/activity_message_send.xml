@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.bojun.test.Message_send"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:gravity="center_horizontal"
+
+        android:paddingTop="5dp"
+        android:layout_weight="0.17">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/receiver"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#DCDCDC"
+            android:text="수신인"
+            android:textSize="15dp"/>
+
+        <EditText
+            android:id="@+id/receiver_name"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3"
+            android:textSize="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:background="#C0C0C0"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:onClick="login"
+            android:scaleType="centerCrop"
+            android:text="전송" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
